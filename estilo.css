@@ -52,6 +52,13 @@ body {
   background-color: #ffffff;
 }
 
+blockquote {
+  background-color: #c3e4d9;
+  font-family: "Prata", serif;
+  font-size: 80px;
+  text-align: center;
+}
+
 .banner h1 {
   color: #393939;
   font-size: 100px;
@@ -127,4 +134,8 @@ body {
 
 #novedades img {
   width: 100%;
+}
+
+footer {
+  background-color: #dbf1a7;
 }
