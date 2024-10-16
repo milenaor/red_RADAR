@@ -138,4 +138,17 @@ blockquote {
 
 footer {
   background-color: #dbf1a7;
+  align-items: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-family: "Prata", serif;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 815px;
+  font-family: "Prata", serif;
+  text-align: center;
 }
