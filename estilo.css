@@ -45,7 +45,6 @@ p {
   font-family: "Prata", serif;
   font-size: 20px;
   margin-bottom: 30px;
-  text-align: justify;
 }
 
 body {
@@ -55,8 +54,15 @@ body {
 blockquote {
   background-color: #c3e4d9;
   font-family: "Prata", serif;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
+  padding: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.b-orange{
+  background-color: #dfb08e;
 }
 
 .banner h1 {
@@ -137,12 +143,17 @@ blockquote {
 }
 
 footer {
+  font-family: "Prata", serif !important;
   background-color: #dbf1a7;
   align-items: center;
+  padding: 70px 0px;
+  text-align: center;
+  color: #000;
 }
 
 .footer h3 {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 900;
   font-family: "Prata", serif;
   text-align: center;
 }
@@ -152,3 +163,97 @@ footer {
   font-family: "Prata", serif;
   text-align: center;
 }
+footer a{
+  color: #000;
+  text-decoration: none;
+}
+
+.card-img-top{
+  padding: 20px;
+}
+
+.card-body{
+  text-align: center;
+}
+.card-body p{
+  font-size: 16px;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.space{
+  padding: 100px 20px;
+}
+
+.banner{
+  padding: 50px 0px;
+}
+
+.banner h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.banner ol {
+  color: #767676;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.8rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  blockquote {
+    font-size: 40px;
+    padding: 80px;
+  }
+}
+
+.swiper-container .card-wrapper{
+  padding: 40px;
+  text-align: center;
+}
+
+.swiper-container .card-img, .swiper-container .card-img-top{
+  max-width: 250px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px !important;
+  padding: 40px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  position: relative !important;
+  color: black !important;
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 20px !important;
+}
+
+.swiper-container{
+  overflow: hidden;
+}
+
+.arrow-container{
+  max-width: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 200px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+  transform: scale(.7);
+}
+
+
